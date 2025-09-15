@@ -14,3 +14,4 @@ Given an input array of seven integers, representing a week's time, where each i
 * If the average of any three days in a row is greater than or equal to 8 hours, it’s too much.
 * If the average of the seven days is greater than or equal to 6 hours, it's too much.
 # <u> 13th September 2025 </u>
+# <u> 14th September 2025 </u>
