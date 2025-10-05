@@ -3,7 +3,7 @@
 def is_balanced(s):
     s1_vowel_count = 0
     s2_vowel_count = 0
-    vowel = set('aeiou')
+    vowel = 'aeiou'
     if len(s)%2 == 0:
         s1 = s[:(len(s)//2)]
         s2 = s[(len(s)//2):]
