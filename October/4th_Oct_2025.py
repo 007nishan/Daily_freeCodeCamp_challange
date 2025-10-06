@@ -15,5 +15,5 @@ def classification(temp):
         return "K"
     elif 0 <= temp <= 3699:
         return "M"
-
+        
 ** end of main.py **
