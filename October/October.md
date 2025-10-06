@@ -1,7 +1,7 @@
 <h1>Space Week</h1>
 <p>October 4<sup>th</sup> marks the beginning of <strong>World Space Week</strong>. The next seven days will bring you astronomy-themed coding challenges.</p>
 <h2>Day 1: Stellar Classification</h2>
-<h2>6th October</h2>
+<h2>4th October</h2>
 For today's challenge, you are given the surface temperature of a star in Kelvin (K) and need to determine its stellar classification based on the following ranges:</br>
 <ul>
   <li><code>"O"</code>: 30,000 K or higher</li>
