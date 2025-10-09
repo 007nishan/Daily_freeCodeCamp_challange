@@ -24,3 +24,14 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
   </ul>
 </ul>
 <p>A star is considered to have an exoplanet if any single reading is less than or equal to 80% of the average of all readings. For example, if the average luminosity of a star is 10, it would be considered to have a exoplanet if any single reading is 8 or less.</p>
+<h2>Day 3: Phone Home</h2>
+<h3>6<sup>th</sup> October</h3>
+<p>For day three of Space Week, you are given an array of numbers representing distances (in kilometers) between yourself, satellites, and your home planet in a communication route. Determine how long it will take a message sent through the route to reach its destination planet using the following constraints:</p>
+<ul>
+  <li>The first value in the array is the distance from your location to the first satellite.</li>
+  <li>Each subsequent value, except for the last, is the distance to the next satellite.</li>
+  <li>The last value in the array is the distance from the previous satellite to your home planet.</li>
+  <li>The message travels at 300,000 km/s.</li>
+  <li>Each satellite the message passes through adds a 0.5 second transmission delay.</li>
+  <li>Return a number rounded to 4 decimal places, with trailing zeros removed.</li>
+  
