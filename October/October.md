@@ -34,4 +34,24 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
   <li>The message travels at 300,000 km/s.</li>
   <li>Each satellite the message passes through adds a 0.5 second transmission delay.</li>
   <li>Return a number rounded to 4 decimal places, with trailing zeros removed.</li>
-  
+
+<h2>Day 3: Day 4: Landing Spot</h2>
+<h3>7<sup>th</sup> October, 2025</h3>
+<p>In day four of Space Week, you are given a matrix of numbers (an array of arrays), representing potential landing spots for your rover. Find the safest landing spot based on the following rules:</p>
+<ul>
+  <li>Each spot in the matrix will contain a number from <code>0-9</code>, inclusive.</li>
+  <li>Any <code>0</code> represents a potential landing spot.</li>
+  <li>Any number other than <code>0</code> is too dangerous to land. The higher the number, the more dangerous.</li>
+  <li>The safest spot is defined as the <code>0</code> cell whose surrounding cells (up to 4 neighbors, ignore diagonals) have the lowest total danger.</li>
+  <li>Ignore out-of-bounds neighbors (corners and edges just have fewer neighbors).</li>
+  <li>Return the indices of the safest landing spot. There will always only be one safest spot.</li>
+</ul>
+<p>For instance, given:</br>
+<code>
+[
+  [1, 0],
+  [2, 0]
+]
+</code>
+
+Return <code>[0, 1]</code>, the indices for the <code>0</code> in the first array.
