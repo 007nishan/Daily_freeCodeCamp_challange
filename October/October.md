@@ -34,8 +34,9 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
   <li>The message travels at 300,000 km/s.</li>
   <li>Each satellite the message passes through adds a 0.5 second transmission delay.</li>
   <li>Return a number rounded to 4 decimal places, with trailing zeros removed.</li>
+</ul>
 
-<h2>Day 3: Day 4: Landing Spot</h2>
+<h2>Day 4: Day 4: Landing Spot</h2>
 <h3>7<sup>th</sup> October, 2025</h3>
 <p>In day four of Space Week, you are given a matrix of numbers (an array of arrays), representing potential landing spots for your rover. Find the safest landing spot based on the following rules:</p>
 <ul>
