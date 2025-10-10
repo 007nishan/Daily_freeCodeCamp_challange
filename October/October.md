@@ -47,8 +47,7 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
   <li>Return the indices of the safest landing spot. There will always only be one safest spot.</li>
 </ul>
 <p>For instance, given:</br>
-<code>
-[
+<code>[
   [1, 0],
   [2, 0]
 ]
