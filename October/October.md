@@ -53,4 +53,4 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
 ]
 </code>
 
-Return <code>[0, 1]</code>, the indices for the <code>0</code> in the first array.
+Return <code>[0, 1]</code>, the indices for the <code>0</code> in the first array.</p>
