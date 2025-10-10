@@ -48,10 +48,11 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
   <li>Return the indices of the safest landing spot. There will always only be one safest spot.</li>
 </ul>
 <p>For instance, given:</br>
-<code>[
+<pre class="code-box">
+[
   [1, 0],
   [2, 0]
 ]
-</code>
+</pre>
 
 Return <code>[0, 1]</code>, the indices for the <code>0</code> in the first array.</p>
