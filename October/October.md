@@ -36,7 +36,7 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
   <li>Return a number rounded to 4 decimal places, with trailing zeros removed.</li>
 </ul>
 
-<h2>Day 4: Day 4: Landing Spot</h2>
+<h2>Day 4: Landing Spot</h2>
 <h3>7<sup>th</sup> October, 2025</h3>
 <p>In day four of Space Week, you are given a matrix of numbers (an array of arrays), representing potential landing spots for your rover. Find the safest landing spot based on the following rules:</p>
 <ul>
@@ -56,3 +56,18 @@ For today's challenge, you are given the surface temperature of a star in Kelvin
 </pre>
 
 Return <code>[0, 1]</code>, the indices for the <code>0</code> in the first array.</p>
+
+<h2>Day 5: Goldilocks Zone</h2>
+<h3>8<sup>th</sup> October, 2025</h3>
+<p>For the fifth day of Space Week, you will calculate the "Goldilocks zone" of a star - the region around a star where conditions are "just right" for liquid water to exist.</p>
+<p>Given the mass of a star, return an array with the start and end distances of its Goldilocks Zone in Astronomical Units.</p>
+<p>To calculate the Goldilocks Zone:</p>
+<ol>
+  <li>Find the luminosity of the star by raising its mass to the power of 3.5.</li>
+  <li>The start of the zone is 0.95 times the square root of its luminosity.</li>
+  <li>The end of the zone is 1.37 times the square root of its luminosity.</li>
+</ol>
+<ul>
+  <li>Return the distances rounded to two decimal places.</li>
+</ul>
+<p>For example, given <code>1</code> as a mass, return <code>[0.95, 1.37]</code>.</p>
