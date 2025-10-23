@@ -8,16 +8,15 @@ Given a string, determine whether the number of vowels in the first half of the 
 <h1>Base Check</h1>
 Given a string representing a number, and an integer base from 2 to 36, determine whether the number is valid in that base.</br>
 <ul>
-  <list>The string may contain integers, and uppercase or lowercase characters.</list>
-  <list>The check should be case-insensitive.</list>
-  <list>The base can be any number 2-36.</list>
-  <list>A number is valid if every character is a valid digit in the given base.</list>
-  <list>Example of valid digits for bases:</list>
+  <li>The string may contain integers, and uppercase or lowercase characters.</li>
+  <li>The check should be case-insensitive.</li>
+  <li>The base can be any number 2-36.</li>
+  <li>A number is valid if every character is a valid digit in the given base.</li>
+  <li>Example of valid digits for bases:</li>
   <ul>
-    <list>Base 2: 0-1</list>  
-    <list>Base 8: 0-7</list>
-    <list>Base 10: 0-9</list>
-    <list>Base 16: 0-9 and A-F</list>
-    <list>Base 36: 0-9 and A-Z</list>
+    <li>Base 2: 0-1</li>
+    <li>Base 8: 0-7</li>
+    <li>Base 10: 0-9</li>
+    <li>Base 16: 0-9 and A-F</li>
+    <li>Base 36: 0-9 and A-Z</li>
   </ul>
-</ul>
