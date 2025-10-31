@@ -31,3 +31,9 @@ The Fibonacci sequence is a series of numbers where each number is the sum of th
   <li>Note that the starting numbers are part of the sequence.</li>
 </ul>
 </p>
+<h2>August 14,2025</h2>
+<h1>S P A C E J A M</h1>
+Given a string, remove all spaces from the string, insert two spaces between every character, convert all alphabetical letters to uppercase, and return the result.
+<ul>
+  <li>Non-alphabetical characters should remain unchanged (except for spaces).</li>
+</ul>
